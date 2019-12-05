@@ -8,7 +8,6 @@ import torch
 import torch.nn as nn
 import torchvision
 import torch.nn.functional as F
-counter=0
 class Astrous_Bottleneck(nn.Module):
     expansion=4
 
@@ -33,7 +32,6 @@ class Astrous_Bottleneck(nn.Module):
 
 
     def forward(self, x):
-        global counter
 
         residual=x
 
