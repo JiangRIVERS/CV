@@ -15,7 +15,7 @@ class Astrous_Bottleneck(nn.Module):
 
     def __init__(self,inplanes,planes,stride=1,rate=1,downsample=False):
         super(Astrous_Bottleneck,self).__init__()
-        self.stride=stride
+
         self.downsample=downsample
         self.conv1=nn.Conv2d(inplanes,planes,kernel_size=1,bias=False)
         self.bn1=nn.BatchNorm2d(planes)
