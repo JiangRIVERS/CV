@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def GAN_test():
-    #A test for GAN
+    # A test for GAN
     plt.figure(figsize=(8, 6), dpi=80)
     plt.ion()
 
@@ -25,12 +25,14 @@ def GAN_test():
     label_y = np.sin(label_x * np.pi)
     label_y_tensor = torch.from_numpy(label_y).float()
 
+    # Generative model
     G = nn.Sequential(
         nn.Linear(input_f, 128),
         nn.ReLU(inplace=True),
         nn.Linear(128, point)
     )
 
+    # Discriminative model
     D = nn.Sequential(
         nn.Linear(point, 128),
         nn.ReLU(inplace=True),
@@ -38,6 +40,7 @@ def GAN_test():
         nn.Sigmoid()
     )
 
+    # optimizer
     opt_G = torch.optim.Adam(G.parameters(), lr=lr_G)
     opt_D = torch.optim.Adam(D.parameters(), lr=lr_D)
 
@@ -74,6 +77,9 @@ def GAN_test():
 
     plt.ioff()
     plt.show()
+
+if __name__=='__main__':
+    GAN_test()
 
 
 
