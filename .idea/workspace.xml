@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f3ee470-06a4-42c2-85b4-d129ee48d097" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Detection/Faster R-CNN/Faster_RCNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Detection/Faster R-CNN/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GAN/GAN_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GAN/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAN/GAN_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/GAN/GAN_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +112,7 @@
       <workItem from="1572355152730" duration="6821000" />
       <workItem from="1575550458096" duration="39000" />
       <workItem from="1580624721269" duration="28000" />
-      <workItem from="1583201362472" duration="272000" />
+      <workItem from="1583201362472" duration="494000" />
     </task>
     <servers />
   </component>
